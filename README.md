@@ -2,23 +2,6 @@
 
 A basic web chat interface for communicating with ROS2 Humble using a custom service and `rosbridge`.
 
-## Table of Contents
-
-- [Project Structure](#project-structure)
-  - [ros_ws](#ros_ws)
-    - [Packages](#packages)
-      - [chat_service](#chat_service)
-      - [interfaces](#interfaces)
-  - [webapp](#webapp)
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Launching ROS Nodes](#launching-ros-nodes)
-  - [Starting the Web Application](#starting-the-web-application)
-- [Important Commands](#important-commands)
-  - [Within `ros_ws/`](#within-ros_ws)
-  - [Within `webapp/`](#within-webapp)
-- [License](#license)
-
 ## Project Structure
 
 The project is divided into two main components:

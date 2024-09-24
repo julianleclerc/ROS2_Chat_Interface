@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ROS2 Chat Interface</title>
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <h1>ROS2 Chat Interface</h1>
+        <div id="chatlog" class="chatlog"></div>
+        <input type="text" id="messageInput" placeholder="Type your message here...">
+        <button id="sendBtn">Send</button>
+    </div>
+    
+    <!-- Load ROSLIB.js from Unpkg CDN -->
+    <script src="https://unpkg.com/roslib/build/roslib.min.js"></script>
+    
+    <!-- Then load your custom app.js -->
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

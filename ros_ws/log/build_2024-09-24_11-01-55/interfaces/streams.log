@@ -1,0 +1,234 @@
+[0.007s] Invoking command in '/home/fyier/thesis/ros_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fyier/thesis/ros_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/fyier/thesis/ros_ws/install/interfaces
+[0.069s] -- The C compiler identification is GNU 11.4.0
+[0.119s] -- The CXX compiler identification is GNU 11.4.0
+[0.125s] -- Detecting C compiler ABI info
+[0.159s] -- Detecting C compiler ABI info - done
+[0.163s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.163s] -- Detecting C compile features
+[0.163s] -- Detecting C compile features - done
+[0.165s] -- Detecting CXX compiler ABI info
+[0.209s] -- Detecting CXX compiler ABI info - done
+[0.213s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.214s] -- Detecting CXX compile features
+[0.214s] -- Detecting CXX compile features - done
+[0.216s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.283s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.322s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.340s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.343s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.347s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.353s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.360s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.379s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.511s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.697s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.770s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.779s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.780s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.791s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.791s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.791s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.791s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[0.801s] -- Found PythonExtra: .so  
+[0.828s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.836s] -- Added test 'lint_cmake' to check CMake code style
+[0.836s] -- Added test 'xmllint' to check XML markup files
+[0.837s] -- Configuring done
+[0.853s] -- Generating done
+[0.855s] -- Build files have been written to: /home/fyier/thesis/ros_ws/build/interfaces
+[0.859s] Invoked command in '/home/fyier/thesis/ros_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/fyier/thesis/ros_ws/src/interfaces -DCMAKE_INSTALL_PREFIX=/home/fyier/thesis/ros_ws/install/interfaces
+[0.860s] Invoking command in '/home/fyier/thesis/ros_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fyier/thesis/ros_ws/build/interfaces -- -j4 -l4
+[0.875s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.880s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.882s] [  6%] Built target ament_cmake_python_copy_interfaces
+[0.991s] running egg_info
+[0.991s] creating interfaces.egg-info
+[0.991s] writing interfaces.egg-info/PKG-INFO
+[0.991s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[0.991s] writing top-level names to interfaces.egg-info/top_level.txt
+[0.992s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[0.992s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[0.993s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[1.011s] [  6%] Built target ament_cmake_python_build_interfaces_egg
+[1.017s] [  6%] Built target interfaces__cpp
+[1.022s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.022s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.024s] [ 16%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.025s] [ 19%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/chat__functions.c.o[0m
+[1.059s] [ 22%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[1.078s] [ 22%] Built target interfaces__rosidl_generator_c
+[1.082s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.146s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/chat__type_support.cpp.o[0m
+[1.153s] [ 32%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/chat__type_support.cpp.o[0m
+[1.169s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/chat__type_support.cpp.o[0m
+[1.211s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/chat__type_support_c.cpp.o[0m
+[1.310s] [ 41%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[1.335s] [ 41%] Built target interfaces__rosidl_typesupport_cpp
+[1.342s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.393s] [ 48%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.407s] [ 51%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.410s] [ 54%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[1.429s] [ 54%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[1.436s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.447s] [ 58%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[1.450s] [ 58%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[1.485s] [ 61%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/chat__type_support.c.o[0m
+[1.501s] [ 64%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[1.513s] [ 64%] Built target interfaces__rosidl_typesupport_introspection_c
+[1.542s] [ 67%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/chat__type_support.cpp.o[0m
+[1.558s] [ 70%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[1.574s] [ 70%] Built target interfaces__rosidl_typesupport_c
+[1.581s] [ 70%] Built target interfaces
+[1.588s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[1.741s] [ 74%] Built target interfaces__py
+[1.748s] [ 77%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_chat_s.c.o[0m
+[1.797s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so[0m
+[1.813s] [ 80%] Built target interfaces__rosidl_generator_py
+[1.821s] [ 83%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.821s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.821s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[1.870s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[1.870s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[1.870s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[1.887s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.887s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[1.893s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[1.897s] Invoked command in '/home/fyier/thesis/ros_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/fyier/thesis/ros_ws/build/interfaces -- -j4 -l4
+[1.924s] Invoking command in '/home/fyier/thesis/ros_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fyier/thesis/ros_ws/build/interfaces
+[1.927s] -- Install configuration: ""
+[1.927s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[1.928s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces
+[1.928s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv
+[1.928s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail
+[1.928s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__functions.h
+[1.928s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__functions.c
+[1.928s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__type_support.h
+[1.928s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__struct.h
+[1.928s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/chat.h
+[1.928s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/msg
+[1.928s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.928s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[1.928s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[1.928s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[1.929s] -- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[1.929s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces
+[1.929s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv
+[1.929s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail
+[1.929s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__rosidl_typesupport_fastrtps_c.h
+[1.929s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/msg
+[1.929s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.929s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[1.929s] -- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[1.929s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces
+[1.929s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv
+[1.929s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail
+[1.929s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__struct.hpp
+[1.929s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__traits.hpp
+[1.929s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__builder.hpp
+[1.929s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/chat.hpp
+[1.929s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces
+[1.929s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv
+[1.929s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail
+[1.929s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__rosidl_typesupport_fastrtps_cpp.hpp
+[1.929s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps
+[1.929s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/msg
+[1.929s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.932s] -- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[1.932s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces
+[1.932s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv
+[1.932s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__type_support.c
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__rosidl_typesupport_introspection_c.h
+[1.932s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/msg
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[1.932s] -- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[1.932s] -- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[1.932s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces
+[1.932s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv
+[1.932s] -- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__rosidl_typesupport_introspection_cpp.hpp
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__type_support.cpp
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[1.932s] -- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[1.932s] -- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_chat_s.c
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_chat.py
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+[1.932s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.933s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[1.933s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.933s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.933s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.946s] Listing '/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+[1.946s] Compiling '/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...
+[1.946s] Listing '/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...
+[1.946s] Compiling '/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...
+[1.946s] Compiling '/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_chat.py'...
+[1.949s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.949s] -- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[1.949s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.949s] -- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[1.949s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.950s] -- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[1.950s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[1.950s] -- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[1.950s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/srv/Chat.idl
+[1.950s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/srv/Chat.srv
+[1.950s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/srv/Chat_Request.msg
+[1.950s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/srv/Chat_Response.msg
+[1.950s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[1.950s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[1.950s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[1.950s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[1.950s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/environment/path.sh
+[1.950s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/environment/path.dsv
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/local_setup.bash
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/local_setup.sh
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/local_setup.zsh
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/local_setup.dsv
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/package.dsv
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.951s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[1.952s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.952s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[1.952s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.952s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[1.952s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.952s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.952s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.952s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.952s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.952s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.952s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[1.952s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[1.952s] -- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/package.xml
+[1.953s] Invoked command in '/home/fyier/thesis/ros_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/fyier/thesis/ros_ws/build/interfaces

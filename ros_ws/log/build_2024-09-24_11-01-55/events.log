@@ -1,0 +1,305 @@
+[0.000000] (-) TimerEvent: {}
+[0.000151] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.000167] (chat_service) JobQueued: {'identifier': 'chat_service', 'dependencies': OrderedDict([('interfaces', '/home/fyier/thesis/ros_ws/install/interfaces')])}
+[0.000614] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.005181] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.005469] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/fyier/thesis/ros_ws/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/home/fyier/thesis/ros_ws/install/interfaces'], 'cwd': '/home/fyier/thesis/ros_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'fyier'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1101'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/fyier/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fyier/thesis/ros_ws/install/interfaces/lib:/home/fyier/thesis/ros_ws/install/chat_service/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/fyier'), ('OLDPWD', '/home/fyier/thesis/ros_ws/src'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/fyier/thesis/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fyier'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('XDG_DATA_HOME', '/home/fyier/.local/share'), ('XDG_CONFIG_HOME', '/home/fyier/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/fyier/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXjXAxFj/agent.1053'), ('AMENT_PREFIX_PATH', '/home/fyier/thesis/ros_ws/install/interfaces:/home/fyier/thesis/ros_ws/install/chat_service:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('PWD', '/home/fyier/thesis/ros_ws/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages:/home/fyier/thesis/ros_ws/install/chat_service/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/fyier/thesis/ros_ws/install/interfaces:/home/fyier/thesis/ros_ws/install/chat_service:/opt/ros/humble')]), 'shell': False}
+[0.070045] (interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099847] (-) TimerEvent: {}
+[0.119469] (interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.125090] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.159454] (interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.163478] (interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.163609] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.163830] (interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.165351] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199954] (-) TimerEvent: {}
+[0.209819] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.214017] (interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.214278] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.214422] (interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.216109] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.283440] (interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.300045] (-) TimerEvent: {}
+[0.322215] (interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.340944] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.343830] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.347664] (interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.353125] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.360355] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.379310] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.402925] (-) TimerEvent: {}
+[0.503073] (-) TimerEvent: {}
+[0.511468] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.603647] (-) TimerEvent: {}
+[0.697704] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.703821] (-) TimerEvent: {}
+[0.770139] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.779850] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.780578] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.791915] (interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[0.792034] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.792082] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.792115] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[0.801239] (interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.803891] (-) TimerEvent: {}
+[0.828286] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.836404] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.836939] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.837966] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.853922] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.855251] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/fyier/thesis/ros_ws/build/interfaces\n'}
+[0.859663] (interfaces) CommandEnded: {'returncode': 0}
+[0.859969] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[0.860640] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/fyier/thesis/ros_ws/build/interfaces', '--', '-j4', '-l4'], 'cwd': '/home/fyier/thesis/ros_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'fyier'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1101'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/fyier/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fyier/thesis/ros_ws/install/interfaces/lib:/home/fyier/thesis/ros_ws/install/chat_service/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/fyier'), ('OLDPWD', '/home/fyier/thesis/ros_ws/src'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/fyier/thesis/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fyier'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('XDG_DATA_HOME', '/home/fyier/.local/share'), ('XDG_CONFIG_HOME', '/home/fyier/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/fyier/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXjXAxFj/agent.1053'), ('AMENT_PREFIX_PATH', '/home/fyier/thesis/ros_ws/install/interfaces:/home/fyier/thesis/ros_ws/install/chat_service:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('PWD', '/home/fyier/thesis/ros_ws/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages:/home/fyier/thesis/ros_ws/install/chat_service/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/fyier/thesis/ros_ws/install/interfaces:/home/fyier/thesis/ros_ws/install/chat_service:/opt/ros/humble')]), 'shell': False}
+[0.875851] (interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.880446] (interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.882290] (interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_interfaces\n'}
+[0.903982] (-) TimerEvent: {}
+[0.991259] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.991689] (interfaces) StdoutLine: {'line': b'creating interfaces.egg-info\n'}
+[0.991819] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[0.991946] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[0.992060] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[0.992190] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[0.993023] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[0.993334] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[1.004089] (-) TimerEvent: {}
+[1.011829] (interfaces) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[1.017616] (interfaces) StdoutLine: {'line': b'[  6%] Built target interfaces__cpp\n'}
+[1.022528] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.022688] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.025017] (interfaces) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.025354] (interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/chat__functions.c.o\x1b[0m\n'}
+[1.059408] (interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[1.078322] (interfaces) StdoutLine: {'line': b'[ 22%] Built target interfaces__rosidl_generator_c\n'}
+[1.082089] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.104169] (-) TimerEvent: {}
+[1.146781] (interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/chat__type_support.cpp.o\x1b[0m\n'}
+[1.153749] (interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/chat__type_support.cpp.o\x1b[0m\n'}
+[1.169306] (interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/chat__type_support.cpp.o\x1b[0m\n'}
+[1.204273] (-) TimerEvent: {}
+[1.211124] (interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/chat__type_support_c.cpp.o\x1b[0m\n'}
+[1.304786] (-) TimerEvent: {}
+[1.310440] (interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.335247] (interfaces) StdoutLine: {'line': b'[ 41%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[1.342649] (interfaces) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.393668] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.404859] (-) TimerEvent: {}
+[1.407856] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.410971] (interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.429935] (interfaces) StdoutLine: {'line': b'[ 54%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.436929] (interfaces) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.447395] (interfaces) StdoutLine: {'line': b'[ 58%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.450846] (interfaces) StdoutLine: {'line': b'[ 58%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.485721] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/chat__type_support.c.o\x1b[0m\n'}
+[1.501946] (interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.504934] (-) TimerEvent: {}
+[1.513840] (interfaces) StdoutLine: {'line': b'[ 64%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[1.542258] (interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/chat__type_support.cpp.o\x1b[0m\n'}
+[1.558716] (interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.574537] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces__rosidl_typesupport_c\n'}
+[1.581334] (interfaces) StdoutLine: {'line': b'[ 70%] Built target interfaces\n'}
+[1.588476] (interfaces) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.605003] (-) TimerEvent: {}
+[1.705300] (-) TimerEvent: {}
+[1.741612] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__py\n'}
+[1.748890] (interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_chat_s.c.o\x1b[0m\n'}
+[1.797262] (interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so\x1b[0m\n'}
+[1.805947] (-) TimerEvent: {}
+[1.813781] (interfaces) StdoutLine: {'line': b'[ 80%] Built target interfaces__rosidl_generator_py\n'}
+[1.821458] (interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.821726] (interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.821820] (interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.870335] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[1.870439] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[1.870521] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[1.887993] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.888099] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.893689] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[1.897956] (interfaces) CommandEnded: {'returncode': 0}
+[1.906083] (-) TimerEvent: {}
+[1.921589] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[1.924806] (interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/fyier/thesis/ros_ws/build/interfaces'], 'cwd': '/home/fyier/thesis/ros_ws/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', ''), ('GTK_CSD', '0'), ('USER', 'fyier'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1101'), ('XDG_SESSION_TYPE', 'x11'), ('XDG_CACHE_HOME', '/home/fyier/.cache'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/fyier/thesis/ros_ws/install/interfaces/lib:/home/fyier/thesis/ros_ws/install/chat_service/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', 'firefox'), ('HOME', '/home/fyier'), ('OLDPWD', '/home/fyier/thesis/ros_ws/src'), ('DESKTOP_SESSION', 'Lubuntu'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_QPA_PLATFORMTHEME', 'lxqt'), ('COLCON_PREFIX_PATH', '/home/fyier/thesis/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'fyier'), ('WINDOWID', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('SAL_VCL_QT5_USE_CAIRO', 'true'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('SAL_USE_VCLPLUGIN', 'qt5'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'lxqt-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'LXQt'), ('XDG_DATA_HOME', '/home/fyier/.local/share'), ('XDG_CONFIG_HOME', '/home/fyier/.config'), ('XDG_SESSION_DESKTOP', ''), ('XAUTHORITY', '/home/fyier/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXjXAxFj/agent.1053'), ('AMENT_PREFIX_PATH', '/home/fyier/thesis/ros_ws/install/interfaces:/home/fyier/thesis/ros_ws/install/chat_service:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LXQT_SESSION_CONFIG', 'session'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '1'), ('PWD', '/home/fyier/thesis/ros_ws/build/interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share'), ('XDG_DATA_DIRS', '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages:/home/fyier/thesis/ros_ws/install/chat_service/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('QT_PLATFORM_PLUGIN', 'lxqt'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/fyier/thesis/ros_ws/install/interfaces:/home/fyier/thesis/ros_ws/install/chat_service:/opt/ros/humble')]), 'shell': False}
+[1.927789] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.927952] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[1.928106] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.928171] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[1.928286] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[1.928346] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__functions.h\n'}
+[1.928490] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__functions.c\n'}
+[1.928563] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__type_support.h\n'}
+[1.928598] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__struct.h\n'}
+[1.928714] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/chat.h\n'}
+[1.928755] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.928779] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.928803] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[1.928826] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[1.928965] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[1.929112] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[1.929152] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.929178] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[1.929201] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[1.929224] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__rosidl_typesupport_fastrtps_c.h\n'}
+[1.929247] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.929285] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.929309] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.929342] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[1.929365] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.929398] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[1.929423] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[1.929446] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__struct.hpp\n'}
+[1.929477] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__traits.hpp\n'}
+[1.929500] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__builder.hpp\n'}
+[1.929641] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/chat.hpp\n'}
+[1.929747] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.929781] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[1.929805] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[1.929828] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.929954] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps\n'}
+[1.929999] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.930048] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.932110] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.932155] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[1.932239] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.932268] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[1.932302] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[1.932382] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__type_support.c\n'}
+[1.932412] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__rosidl_typesupport_introspection_c.h\n'}
+[1.932435] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/msg\n'}
+[1.932460] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.932483] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.932504] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[1.932527] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[1.932554] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[1.932578] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces\n'}
+[1.932599] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv\n'}
+[1.932621] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[1.932642] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.932664] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/include/interfaces/interfaces/srv/detail/chat__type_support.cpp\n'}
+[1.932686] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.932708] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[1.932730] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[1.932751] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[1.932776] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[1.932797] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[1.932819] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[1.932841] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.932862] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.932884] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.932905] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.932927] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[1.932948] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv\n'}
+[1.932969] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py\n'}
+[1.932991] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_chat_s.c\n'}
+[1.933012] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_chat.py\n'}
+[1.933033] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.933055] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[1.933076] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[1.933098] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.933120] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.933141] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.933165] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.933186] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.946817] (interfaces) StdoutLine: {'line': b"Listing '/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[1.946938] (interfaces) StdoutLine: {'line': b"Compiling '/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...\n"}
+[1.946970] (interfaces) StdoutLine: {'line': b"Listing '/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...\n"}
+[1.946993] (interfaces) StdoutLine: {'line': b"Compiling '/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...\n"}
+[1.947015] (interfaces) StdoutLine: {'line': b"Compiling '/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_chat.py'...\n"}
+[1.949119] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.949293] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[1.949478] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.949567] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[1.949599] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[1.950434] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[1.950476] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[1.950520] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/fyier/thesis/ros_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""\n'}
+[1.950611] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/srv/Chat.idl\n'}
+[1.950635] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/srv/Chat.srv\n'}
+[1.950721] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/srv/Chat_Request.msg\n'}
+[1.950751] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/srv/Chat_Response.msg\n'}
+[1.950779] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[1.950807] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[1.951000] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[1.951031] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[1.951071] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/environment/path.sh\n'}
+[1.951096] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[1.951136] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/local_setup.bash\n'}
+[1.951160] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/local_setup.sh\n'}
+[1.951194] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[1.951296] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[1.951321] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/package.dsv\n'}
+[1.951362] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[1.951422] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.951451] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.951516] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.951558] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.951624] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.951657] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.951696] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.951731] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.951805] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.951834] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.951908] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.951978] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.952020] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.952042] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.952065] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.952153] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.952192] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.952313] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.952360] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.952421] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.952455] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.952532] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.952691] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.952733] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.952774] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[1.952848] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[1.952879] (interfaces) StdoutLine: {'line': b'-- Installing: /home/fyier/thesis/ros_ws/install/interfaces/share/interfaces/package.xml\n'}
+[1.953962] (interfaces) CommandEnded: {'returncode': 0}
+[1.986037] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[1.986415] (chat_service) JobStarted: {'identifier': 'chat_service'}
+[2.006707] (-) TimerEvent: {}
+[2.107748] (-) TimerEvent: {}
+[2.212567] (-) TimerEvent: {}
+[2.243564] (chat_service) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/chat_service', 'build', '--build-base', '/home/fyier/thesis/ros_ws/build/chat_service/build', 'install', '--record', '/home/fyier/thesis/ros_ws/build/chat_service/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/fyier/thesis/ros_ws/src/chat_service', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': '', 'GTK_CSD': '0', 'USER': 'fyier', 'XDG_SEAT': 'seat0', 'SSH_AGENT_PID': '1101', 'XDG_SESSION_TYPE': 'x11', 'XDG_CACHE_HOME': '/home/fyier/.cache', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/fyier/thesis/ros_ws/install/interfaces/lib:/home/fyier/thesis/ros_ws/install/chat_service/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': 'firefox', 'HOME': '/home/fyier', 'OLDPWD': '/home/fyier/thesis/ros_ws/src', 'DESKTOP_SESSION': 'Lubuntu', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'QT_QPA_PLATFORMTHEME': 'lxqt', 'COLCON_PREFIX_PATH': '/home/fyier/thesis/ros_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'fyier', 'WINDOWID': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'COLORFGBG': '15;0', 'SAL_VCL_QT5_USE_CAIRO': 'true', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'SAL_USE_VCLPLUGIN': 'qt5', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'XDG_MENU_PREFIX': 'lxqt-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'LXQt', 'XDG_DATA_HOME': '/home/fyier/.local/share', 'XDG_CONFIG_HOME': '/home/fyier/.config', 'XDG_SESSION_DESKTOP': '', 'XAUTHORITY': '/home/fyier/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXjXAxFj/agent.1053', 'AMENT_PREFIX_PATH': '/home/fyier/thesis/ros_ws/install/interfaces:/home/fyier/thesis/ros_ws/install/chat_service:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LXQT_SESSION_CONFIG': 'session', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '1', 'PWD': '/home/fyier/thesis/ros_ws/build/chat_service', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share', 'XDG_DATA_DIRS': '/usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/fyier/thesis/ros_ws/build/chat_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fyier/thesis/ros_ws/install/chat_service/lib/python3.10/site-packages:/home/fyier/thesis/ros_ws/install/interfaces/local/lib/python3.10/dist-packages:/home/fyier/thesis/ros_ws/install/chat_service/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'QT_PLATFORM_PLUGIN': 'lxqt', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/fyier/thesis/ros_ws/install/interfaces:/home/fyier/thesis/ros_ws/install/chat_service'}, 'shell': False}
+[2.313544] (-) TimerEvent: {}
+[2.335466] (chat_service) StdoutLine: {'line': b'running egg_info\n'}
+[2.335784] (chat_service) StdoutLine: {'line': b'creating ../../build/chat_service/chat_service.egg-info\n'}
+[2.335852] (chat_service) StdoutLine: {'line': b'writing ../../build/chat_service/chat_service.egg-info/PKG-INFO\n'}
+[2.335958] (chat_service) StdoutLine: {'line': b'writing dependency_links to ../../build/chat_service/chat_service.egg-info/dependency_links.txt\n'}
+[2.336026] (chat_service) StdoutLine: {'line': b'writing entry points to ../../build/chat_service/chat_service.egg-info/entry_points.txt\n'}
+[2.336065] (chat_service) StdoutLine: {'line': b'writing requirements to ../../build/chat_service/chat_service.egg-info/requires.txt\n'}
+[2.336097] (chat_service) StdoutLine: {'line': b'writing top-level names to ../../build/chat_service/chat_service.egg-info/top_level.txt\n'}
+[2.336137] (chat_service) StdoutLine: {'line': b"writing manifest file '../../build/chat_service/chat_service.egg-info/SOURCES.txt'\n"}
+[2.336824] (chat_service) StdoutLine: {'line': b"reading manifest file '../../build/chat_service/chat_service.egg-info/SOURCES.txt'\n"}
+[2.337307] (chat_service) StdoutLine: {'line': b"writing manifest file '../../build/chat_service/chat_service.egg-info/SOURCES.txt'\n"}
+[2.337352] (chat_service) StdoutLine: {'line': b'running build\n'}
+[2.337380] (chat_service) StdoutLine: {'line': b'running build_py\n'}
+[2.337512] (chat_service) StdoutLine: {'line': b'creating /home/fyier/thesis/ros_ws/build/chat_service/build\n'}
+[2.337599] (chat_service) StdoutLine: {'line': b'creating /home/fyier/thesis/ros_ws/build/chat_service/build/lib\n'}
+[2.337736] (chat_service) StdoutLine: {'line': b'creating /home/fyier/thesis/ros_ws/build/chat_service/build/lib/chat_service\n'}
+[2.337770] (chat_service) StdoutLine: {'line': b'copying chat_service/chat_service_node.py -> /home/fyier/thesis/ros_ws/build/chat_service/build/lib/chat_service\n'}
+[2.337795] (chat_service) StdoutLine: {'line': b'copying chat_service/__init__.py -> /home/fyier/thesis/ros_ws/build/chat_service/build/lib/chat_service\n'}
+[2.337818] (chat_service) StdoutLine: {'line': b'running install\n'}
+[2.337840] (chat_service) StdoutLine: {'line': b'running install_lib\n'}
+[2.338032] (chat_service) StdoutLine: {'line': b'creating /home/fyier/thesis/ros_ws/install/chat_service/lib/python3.10/site-packages/chat_service\n'}
+[2.338159] (chat_service) StdoutLine: {'line': b'copying /home/fyier/thesis/ros_ws/build/chat_service/build/lib/chat_service/chat_service_node.py -> /home/fyier/thesis/ros_ws/install/chat_service/lib/python3.10/site-packages/chat_service\n'}
+[2.338192] (chat_service) StdoutLine: {'line': b'copying /home/fyier/thesis/ros_ws/build/chat_service/build/lib/chat_service/__init__.py -> /home/fyier/thesis/ros_ws/install/chat_service/lib/python3.10/site-packages/chat_service\n'}
+[2.338360] (chat_service) StdoutLine: {'line': b'byte-compiling /home/fyier/thesis/ros_ws/install/chat_service/lib/python3.10/site-packages/chat_service/chat_service_node.py to chat_service_node.cpython-310.pyc\n'}
+[2.338829] (chat_service) StdoutLine: {'line': b'byte-compiling /home/fyier/thesis/ros_ws/install/chat_service/lib/python3.10/site-packages/chat_service/__init__.py to __init__.cpython-310.pyc\n'}
+[2.339013] (chat_service) StdoutLine: {'line': b'running install_data\n'}
+[2.339118] (chat_service) StdoutLine: {'line': b'creating /home/fyier/thesis/ros_ws/install/chat_service/share/ament_index\n'}
+[2.339157] (chat_service) StdoutLine: {'line': b'creating /home/fyier/thesis/ros_ws/install/chat_service/share/ament_index/resource_index\n'}
+[2.339190] (chat_service) StdoutLine: {'line': b'creating /home/fyier/thesis/ros_ws/install/chat_service/share/ament_index/resource_index/packages\n'}
+[2.339256] (chat_service) StdoutLine: {'line': b'copying resource/chat_service -> /home/fyier/thesis/ros_ws/install/chat_service/share/ament_index/resource_index/packages\n'}
+[2.339278] (chat_service) StdoutLine: {'line': b'copying package.xml -> /home/fyier/thesis/ros_ws/install/chat_service/share/chat_service\n'}
+[2.339300] (chat_service) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.339949] (chat_service) StdoutLine: {'line': b'Copying ../../build/chat_service/chat_service.egg-info to /home/fyier/thesis/ros_ws/install/chat_service/lib/python3.10/site-packages/chat_service-0.0.0-py3.10.egg-info\n'}
+[2.340230] (chat_service) StdoutLine: {'line': b'running install_scripts\n'}
+[2.348903] (chat_service) StdoutLine: {'line': b'Installing chat_service_node script to /home/fyier/thesis/ros_ws/install/chat_service/lib/chat_service\n'}
+[2.349025] (chat_service) StdoutLine: {'line': b"writing list of installed files to '/home/fyier/thesis/ros_ws/build/chat_service/install.log'\n"}
+[2.359301] (chat_service) CommandEnded: {'returncode': 0}
+[2.361298] (chat_service) JobEnded: {'identifier': 'chat_service', 'rc': 0}
+[2.361663] (-) EventReactorShutdown: {}

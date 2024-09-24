@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: chat-service
+Version: 0.0.1
+Summary: ROS 2 Chat Service Node interfacing with OpenAI ChatGPT
+Home-page: UNKNOWN
+Maintainer: fyier
+Maintainer-email: fyier@example.com
+License: Apache License 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

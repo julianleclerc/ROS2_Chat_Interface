@@ -1,0 +1,37 @@
+running egg_info
+creating build/chat_service/chat_service.egg-info
+writing build/chat_service/chat_service.egg-info/PKG-INFO
+writing dependency_links to build/chat_service/chat_service.egg-info/dependency_links.txt
+writing entry points to build/chat_service/chat_service.egg-info/entry_points.txt
+writing requirements to build/chat_service/chat_service.egg-info/requires.txt
+writing top-level names to build/chat_service/chat_service.egg-info/top_level.txt
+writing manifest file 'build/chat_service/chat_service.egg-info/SOURCES.txt'
+reading manifest file 'build/chat_service/chat_service.egg-info/SOURCES.txt'
+writing manifest file 'build/chat_service/chat_service.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/fyier/testing/ros_ws/src/chat_service/build/chat_service/build
+creating /home/fyier/testing/ros_ws/src/chat_service/build/chat_service/build/lib
+creating /home/fyier/testing/ros_ws/src/chat_service/build/chat_service/build/lib/chat_service
+copying chat_service/__init__.py -> /home/fyier/testing/ros_ws/src/chat_service/build/chat_service/build/lib/chat_service
+copying chat_service/chat_service_node.py -> /home/fyier/testing/ros_ws/src/chat_service/build/chat_service/build/lib/chat_service
+running install
+running install_lib
+creating /home/fyier/testing/ros_ws/src/chat_service/install/chat_service/lib/python3.10/site-packages/chat_service
+copying /home/fyier/testing/ros_ws/src/chat_service/build/chat_service/build/lib/chat_service/__init__.py -> /home/fyier/testing/ros_ws/src/chat_service/install/chat_service/lib/python3.10/site-packages/chat_service
+copying /home/fyier/testing/ros_ws/src/chat_service/build/chat_service/build/lib/chat_service/chat_service_node.py -> /home/fyier/testing/ros_ws/src/chat_service/install/chat_service/lib/python3.10/site-packages/chat_service
+byte-compiling /home/fyier/testing/ros_ws/src/chat_service/install/chat_service/lib/python3.10/site-packages/chat_service/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/fyier/testing/ros_ws/src/chat_service/install/chat_service/lib/python3.10/site-packages/chat_service/chat_service_node.py to chat_service_node.cpython-310.pyc
+running install_data
+creating /home/fyier/testing/ros_ws/src/chat_service/install/chat_service/share/ament_index
+creating /home/fyier/testing/ros_ws/src/chat_service/install/chat_service/share/ament_index/resource_index
+creating /home/fyier/testing/ros_ws/src/chat_service/install/chat_service/share/ament_index/resource_index/packages
+copying resource/chat_service -> /home/fyier/testing/ros_ws/src/chat_service/install/chat_service/share/ament_index/resource_index/packages
+copying package.xml -> /home/fyier/testing/ros_ws/src/chat_service/install/chat_service/share/chat_service
+creating /home/fyier/testing/ros_ws/src/chat_service/install/chat_service/share/chat_service/srv
+copying srv/Chat.srv -> /home/fyier/testing/ros_ws/src/chat_service/install/chat_service/share/chat_service/srv
+running install_egg_info
+Copying build/chat_service/chat_service.egg-info to /home/fyier/testing/ros_ws/src/chat_service/install/chat_service/lib/python3.10/site-packages/chat_service-0.0.1-py3.10.egg-info
+running install_scripts
+Installing chat_service_node script to /home/fyier/testing/ros_ws/src/chat_service/install/chat_service/lib/chat_service
+writing list of installed files to '/home/fyier/testing/ros_ws/src/chat_service/build/chat_service/install.log'

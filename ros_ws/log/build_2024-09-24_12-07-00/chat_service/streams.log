@@ -1,0 +1,24 @@
+[0.267s] Invoking command in '/home/fyier/thesis/ros_ws/src/chat_service': PYTHONPATH=/home/fyier/thesis/ros_ws/build/chat_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fyier/thesis/ros_ws/install/chat_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/chat_service build --build-base /home/fyier/thesis/ros_ws/build/chat_service/build install --record /home/fyier/thesis/ros_ws/build/chat_service/install.log --single-version-externally-managed install_data
+[0.363s] running egg_info
+[0.363s] writing ../../build/chat_service/chat_service.egg-info/PKG-INFO
+[0.364s] writing dependency_links to ../../build/chat_service/chat_service.egg-info/dependency_links.txt
+[0.364s] writing entry points to ../../build/chat_service/chat_service.egg-info/entry_points.txt
+[0.364s] writing requirements to ../../build/chat_service/chat_service.egg-info/requires.txt
+[0.364s] writing top-level names to ../../build/chat_service/chat_service.egg-info/top_level.txt
+[0.365s] reading manifest file '../../build/chat_service/chat_service.egg-info/SOURCES.txt'
+[0.366s] writing manifest file '../../build/chat_service/chat_service.egg-info/SOURCES.txt'
+[0.366s] running build
+[0.366s] running build_py
+[0.366s] copying chat_service/chat_service_node.py -> /home/fyier/thesis/ros_ws/build/chat_service/build/lib/chat_service
+[0.366s] running install
+[0.366s] running install_lib
+[0.366s] copying /home/fyier/thesis/ros_ws/build/chat_service/build/lib/chat_service/chat_service_node.py -> /home/fyier/thesis/ros_ws/install/chat_service/lib/python3.10/site-packages/chat_service
+[0.367s] byte-compiling /home/fyier/thesis/ros_ws/install/chat_service/lib/python3.10/site-packages/chat_service/chat_service_node.py to chat_service_node.cpython-310.pyc
+[0.367s] running install_data
+[0.367s] running install_egg_info
+[0.368s] removing '/home/fyier/thesis/ros_ws/install/chat_service/lib/python3.10/site-packages/chat_service-0.0.0-py3.10.egg-info' (and everything under it)
+[0.368s] Copying ../../build/chat_service/chat_service.egg-info to /home/fyier/thesis/ros_ws/install/chat_service/lib/python3.10/site-packages/chat_service-0.0.0-py3.10.egg-info
+[0.369s] running install_scripts
+[0.378s] Installing chat_service_node script to /home/fyier/thesis/ros_ws/install/chat_service/lib/chat_service
+[0.378s] writing list of installed files to '/home/fyier/thesis/ros_ws/build/chat_service/install.log'
+[0.388s] Invoked command in '/home/fyier/thesis/ros_ws/src/chat_service' returned '0': PYTHONPATH=/home/fyier/thesis/ros_ws/build/chat_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/fyier/thesis/ros_ws/install/chat_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/chat_service build --build-base /home/fyier/thesis/ros_ws/build/chat_service/build install --record /home/fyier/thesis/ros_ws/build/chat_service/install.log --single-version-externally-managed install_data

@@ -36,7 +36,7 @@ A standard web application hosted using Flask, accessible on port `8000`.
 - **ROS2 Humble:** Ensure ROS2 Humble is installed and properly set up on your system.
 - **Python 3:** Required for running the Flask web application.
 - **Dependencies:** Install necessary Python packages (e.g., Flask).
-- **GPT-API Key: ** Secret chatgpt api key stored in "~/CHATGPT_KEY" file
+- **GPT-API Key:** Secret chatgpt api key stored in "~/CHATGPT_KEY" file
 
 ### Launching ROS Nodes
 

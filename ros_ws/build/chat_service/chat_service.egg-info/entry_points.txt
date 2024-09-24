@@ -1,3 +1,0 @@
-[console_scripts]
-chat_service_node = chat_service.chat_service_node:main
-

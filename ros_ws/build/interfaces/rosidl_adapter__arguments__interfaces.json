@@ -1,6 +1,0 @@
-{
-  "package_name": "interfaces",
-  "non_idl_tuples": [
-    "/home/fyier/thesis/ros_ws/src/interfaces:srv/Chat.srv"
-  ]
-}
